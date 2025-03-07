@@ -18,7 +18,7 @@ This validator provides immediate spelling checks for Georgian toponyms using Ma
 1.  Open JOSM.
 2.  Go to `Preferences` -> `Data Validator` -> `Tag Checker Rules`.
 3.  Click the "+" (Add) button.
-4.  Enter the path to the `georgian_toponyms.mapcss` file.
+4.  Enter the path to the `georgian_toponyms.mapcss` file (or enter URL: `https://raw.githubusercontent.com/irakliy01/georgian-toponym-validator/refs/heads/main/validators/georgian_toponyms.mapcss`).
 5.  Click `OK`.
 6.  The validator will now be active.
 
@@ -47,6 +47,10 @@ The long-term goal for the Java validator is to:
 ### Why Two Validators?
 
 The MapCSS validator offers a quick and easy way to implement basic validation. However, it is limited by its static nature. The Java validator, when fully developed, will provide more robust and dynamic validation capabilities.
+
+### Data Source
+
+The list of Georgian toponyms used in the validator is sourced from: [https://geonetwork.napr.gov.ge/geonetwork/srv/eng/catalog.search;jsessionid=1E5BD4EC344515648111D65D8073F038#/metadata/be16a17f-96b8-43bf-a25d-bc000cb5d52d](https://geonetwork.napr.gov.ge/geonetwork/srv/eng/catalog.search;jsessionid=1E5BD4EC344515648111D65D8073F038#/metadata/be16a17f-96b8-43bf-a25d-bc000cb5d52d)
 
 ### Contributing
 
