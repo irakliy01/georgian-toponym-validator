@@ -50,11 +50,17 @@ The MapCSS validator offers a quick and easy way to implement basic validation. 
 
 ### Data Source
 
-The list of Georgian toponyms used in the validator is sourced from: [https://geonetwork.napr.gov.ge/geonetwork/srv/eng/catalog.search;jsessionid=1E5BD4EC344515648111D65D8073F038#/metadata/be16a17f-96b8-43bf-a25d-bc000cb5d52d](https://geonetwork.napr.gov.ge/geonetwork/srv/eng/catalog.search;jsessionid=1E5BD4EC344515648111D65D8073F038#/metadata/be16a17f-96b8-43bf-a25d-bc000cb5d52d)
+The list of Georgian toponyms used in this validator is compiled from the following sources:
+
+1.  **Source 1:** [GE:NAPR:BND:002:BuiltupA](https://geonetwork.napr.gov.ge/geonetwork/srv/eng/catalog.search;jsessionid=1E5BD4EC344515648111D65D8073F038#/metadata/be16a17f-96b8-43bf-a25d-bc000cb5d52d). License: Not specified.
+2.  **Source 2:** [geo_supplimentary_gazetteer_2019.xlsx](https://data.humdata.org/dataset/cod-ab-geo), originating from the "administraciuli erTeulebi" dataset provided by the National Statistics Office of Georgia. License: [Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)](https://data.humdata.org/faqs/licenses).
+3.  **Source 3:** [GEO_AdminBoundaries_TabularData.xlsx](https://data.humdata.org/dataset/cod-ab-geo). License:  [Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)](https://data.humdata.org/faqs/licenses).
+
+**Data Modification:** The datasets were combined, and only the columns representing administrative levels 2 and 3 were extracted to create a unified list of place names.
 
 ### Contributing
 
-Contributions to the development of the Java validator are welcome. If you have any suggestions or encounter any issues, please feel free to open an issue or submit a pull request.
+Contributions to the development of the validators are welcome. If you have any suggestions or encounter any issues, please feel free to open an issue or submit a pull request.
 
 ### License
 
